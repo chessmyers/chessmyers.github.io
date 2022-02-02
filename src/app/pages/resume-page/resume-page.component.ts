@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ResumePageComponent implements OnInit {
   title = "My Resume";
-  subtitle = "Last updated: August 2020";
+  subtitle = "Last updated: February 2022";
 
   constructor() { }
 

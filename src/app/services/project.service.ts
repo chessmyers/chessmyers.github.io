@@ -210,7 +210,7 @@ This project won 3rd place at HuskyHacks 2019. Plans for future development pers
         {name: "Prismic", url: "https://prismic.io/", color: "#6884f5"}
       ],
       images: [],
-      website: 'christophermyers.info',
+      website: 'https://christophermyers.info',
       source: 'https://github.com/chessmyers/new-personal-site'
     },
     {

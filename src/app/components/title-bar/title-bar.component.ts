@@ -19,11 +19,11 @@ export class TitleBarComponent implements OnInit {
         icon: 'pi pi-fw pi-home',
         routerLink: 'home'
       },
-      // {
-      //   label: 'Experience',
-      //   icon: 'pi pi-fw pi-users',
-      //   routerLink: 'experience'
-      // },
+      {
+        label: 'Experiences',
+        icon: 'pi pi-fw pi-users',
+        routerLink: 'experience'
+      },
       {
         label: 'Projects',
         icon: 'pi pi-fw pi-th-large',

@@ -19,11 +19,11 @@
 }
 
 .menu-button-icon {
-  font-size: 3.5em;
+  font-size: 3em;
 }
 
 .menu-button-text {
-  font-size: 150%;
+  font-size: 120%;
   display: flex;
   flex-direction: column;
   justify-content: center

@@ -14,7 +14,7 @@ export class ExperiencePageComponent implements OnInit {
   constructor(private experienceService: ExperienceService) { }
 
   ngOnInit(): void {
-    this.jobs = this.experienceService.getExperiences();
+    this.jobs = this.experienceService.getExperiences().reverse();
   }
 
 }

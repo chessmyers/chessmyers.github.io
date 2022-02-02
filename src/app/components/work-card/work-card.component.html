@@ -1,26 +1,24 @@
-<div class="card" style="border-radius: 20px">
-  <header class="card-header" style="border-radius: 20px;">
-    <h1 class="card-header-title card-header-text">
-      {{entry.name}}
-    </h1>
+<div class="card m" style="border-radius: 20px; margin: 25px;">
+  <header class="card-header" style="border-top-left-radius: 20px; border-top-right-radius: 20px;">
+    <div class="column is-three-quarters card-header-title" style="text-align: center">
+      <h1 class="card-header-text">
+        {{entry.name}} <span style="margin: 0 15px;">|</span> <span style="font-size: 60%">{{entry.dates}}</span>
+      </h1>
+      <b>{{ entry.role }}</b>
+    </div>
+    <div class="column is-one-quarter">
+      <img [src]="entry.logo" alt="logo"/>
+    </div>
   </header>
   <div class="card-content">
     <div class="content">
-      <div class="columns">
-        <div class="column is-two-thirds">
-          <div class="container">
-            {{entry.description}}
-          </div>
-
-        </div>
-        <div class="column">
-          <img [src]="entry.logo" alt="logo" />
-        </div>
+      <div class="container">
+        {{entry.description}}
       </div>
     </div>
   </div>
   <footer class="card-footer">
     <a [href]="entry.siteLink" target="_blank" class="card-footer-item">View Site</a>
-    <a disabled [routerLink]="entry.id.toString()" class="card-footer-item">Read More</a>
+    <!--    <a disabled [routerLink]="entry.id.toString()" class="card-footer-item">Read More</a>-->
   </footer>
 </div>
